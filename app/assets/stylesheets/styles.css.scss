@@ -10,7 +10,11 @@ $btnPrimaryBackground: lightblue;
 body {
 	padding-top: 20px;
 }
-
+#header h4a{
+  font-weight:100;
+  color: lightblue;
+  text-decoration: none;
+}
 
 @import 'bootstrap-responsive';
 

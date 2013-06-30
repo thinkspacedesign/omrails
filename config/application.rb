@@ -61,5 +61,19 @@ module Omrails
 
     config.assets.initialize_on_precompile = false
     #required for devise on heroku
+
+    config.action_mailer.smtp_settings = {
+  :address              => "smtp.gmail.com",
+  :port                 => 587,
+  :domain               => "thinkspace-design.com",
+  :user_name            => "thinkspace.design@gmail.com",
+  :password             => "95Hndciv",
+  :authentication       => :plain,
+  :enable_starttls_auto => true
+}
+
+config.action_mailer.default_url_options = {
+  :host => "ryan@thinkspace-design.com"
+}
   end
 end

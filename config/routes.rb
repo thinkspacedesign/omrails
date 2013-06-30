@@ -11,7 +11,10 @@ match '/print' => 'pages#print'
 
 match '/web' => 'pages#web'
 
-match '/contact' => 'pages#contact'
+
+
+match 'contact' => 'contact#new', :as => 'contact', :via => :get
+match 'contact' => 'contact#create', :as => 'contact', :via => :post
 
 
 
