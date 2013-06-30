@@ -5,6 +5,16 @@ get 'about' => 'pages#about'
 
 root :to => 'pages#home'
 
+match '/logo' => 'pages#logo'
+
+match '/print' => 'pages#print'
+
+match '/web' => 'pages#web'
+
+match '/contact' => 'pages#contact'
+
+
+
 
 
   # The priority is based upon order of creation:
