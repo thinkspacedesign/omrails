@@ -63,11 +63,11 @@ module Omrails
     #required for devise on heroku
 
     config.action_mailer.smtp_settings = {
-  :address              => "smtp.gmail.com",
-  :port                 => 587,
+  :address              => "smtpout.securesever.net",
+  :port                 => 465,
   :domain               => "thinkspace-design.com",
-  :user_name            => "thinkspace.design@gmail.com",
-  :password             => "95Hndciv",
+  :user_name            => "ryan@thinkspace-design.com",
+  :password             => "ThinkRyan13",
   :authentication       => :plain,
   :enable_starttls_auto => true
 }
